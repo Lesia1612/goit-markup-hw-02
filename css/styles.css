@@ -43,19 +43,17 @@ a {
   text-decoration: none;
 }
 .address {
+  color: var(--white-text-color);
   font-style: normal;
   line-height: 24px;
-  color: var(--white-text-color);
 }
 /* Logo */
 .logo {
   color: var(--black-text-color);
-  font-family: Raleway;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .logo-part {
   color: var(--accent-color);
@@ -67,8 +65,6 @@ a {
 .link-nav {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .link-nav:hover,
@@ -76,8 +72,8 @@ a {
   color: var(--accent-color);
 }
 .link-nav-footer {
-  line-height: 24px;
   color: var(--link-footer-text-color);
+  line-height: 24px;
 }
 /* Button */
 button {
@@ -96,16 +92,12 @@ button:focus {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
 }
 .button-portfolio.current {
   background-color: var(--accent-color);
@@ -116,13 +108,13 @@ button:focus {
   background-color: var(--footer-background-color);
 }
 .hero-title {
+  color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white-text-color);
 }
 /* Work section */
 .work-title {
@@ -137,7 +129,6 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* Team section */
@@ -145,7 +136,6 @@ button:focus {
   background-color: var(--secondary-background-color);
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
 }
 .team-section-heading {
   font-weight: 700;
@@ -166,7 +156,7 @@ button:focus {
   letter-spacing: 0.06em;
 }
 .portfolio-text {
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
-  color: var(--secondary-text-color);
 }
