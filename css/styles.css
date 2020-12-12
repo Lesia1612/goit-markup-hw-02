@@ -160,3 +160,6 @@ button:focus {
   font-size: 16px;
   line-height: 1.88;
 }
+.portfolio-link {
+  color: var(--primary-text-color);
+}
