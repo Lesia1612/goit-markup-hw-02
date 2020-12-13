@@ -30,23 +30,29 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
+
 header {
   background-color: var(--header-background-color);
 }
+
 footer {
   background-color: var(--footer-background-color);
 }
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
+
 .address {
   color: var(--white-text-color);
   font-style: normal;
   line-height: 24px;
 }
+
 /* Logo */
 .logo {
   color: var(--black-text-color);
@@ -55,26 +61,39 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .logo-part {
   color: var(--accent-color);
 }
+
 .logo-part-footer {
   color: var(--white-text-color);
 }
+
 /* Link */
-.link-nav {
-  color: var(--primary-text-color);
+.link {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.link-nav:hover,
-.link-nav:focus {
+
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
+
+.link-nav {
+  color: var(--primary-text-color);
+}
+
+.link-contacts {
+  color: var(--secondary-text-color);
+}
+
 .link-nav-footer {
   color: var(--link-footer-text-color);
   line-height: 24px;
 }
+
 /* Button */
 button {
   color: var(--primary-text-color);
@@ -83,30 +102,36 @@ button {
   font-size: 16px;
   line-height: 1.62;
 }
+
 button:hover,
 button:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
+
 .button-hero {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
+
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
+
 .button-portfolio.current {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
+
 /* Hero section */
 .hero {
   background-color: var(--footer-background-color);
 }
+
 .hero-title {
   color: var(--white-text-color);
   font-weight: 900;
@@ -116,38 +141,48 @@ button:focus {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 /* Work section */
 .work-title {
   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
+
 .work-text {
-  line-height: 24px;
+  line-height: 1.72;
   color: var(--secondary-text-color);
 }
+
 .work-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 /* Team section */
 .team-section {
   background-color: var(--secondary-background-color);
   font-size: 16px;
   line-height: 1.19;
 }
+
 .team-section-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
+
 .team-section-title {
   font-weight: 500;
 }
+
 .team-section-text {
   color: var(--secondary-text-color);
 }
+
 /* Portfolio section */
 .portfolio-title {
   font-weight: 700;
@@ -155,11 +190,13 @@ button:focus {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .portfolio-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
 }
+
 .portfolio-link {
   color: var(--primary-text-color);
 }
